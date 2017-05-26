@@ -1,0 +1,25 @@
+
+
+#classes when defining just say class inbed your functions 
+#to call the class use calc.  add mult etc 
+
+
+class calc:
+    
+      	 def add(x,y):
+                answer = x + y
+                print(answer)
+        
+         def sub(x,y):
+                answer = x - y
+                print(answer)    
+        
+         def mult(x,y):
+                answer = x * y
+                print(answer)
+        
+         def div(x,y):
+                answer = x / y
+                print(answer)
+        
+print( 5,8)
